@@ -46,9 +46,9 @@ public class Forecast {
                     for (int i = 0; i < CONST_DAYS; i++) {
                         System.out.println(weekDays[i] + " " + weekDates[i].format(formatter) + " - " + String.format("%.2f", forecast[i]));
                     }
-                } else System.out.print("Ошибка ввода периода");
+                } else System.out.println("Ошибка ввода периода");
             } else {
-                System.out.print("Ошибка ввода валюты");
+                System.out.println("Ошибка ввода валюты");
             }
         }
     }
