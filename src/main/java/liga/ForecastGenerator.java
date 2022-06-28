@@ -3,7 +3,7 @@ package liga;
 import static liga.Forecast.CONST_DAYS;
 
 public class ForecastGenerator {
-    //функция рассчета прогноза на 1 день
+    //функция рассчета прогноза на день
     public static double countForecast(double[] cost) {
         double sum = 0;
         for (double x : cost) {
