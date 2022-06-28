@@ -23,7 +23,7 @@ public class Forecast {
             String input = new Scanner(System.in).nextLine();
             if (input.equals("Q")) {
                 break;
-            }//завершаем, если с клавиатуры введена Q
+            }//завершаем, если с клавиатуры введена  Q
 
             String currency = input.substring(5, 8);//получаем нужную валюту
             String period = input.substring(9);//получаем период на который нужен прогноз

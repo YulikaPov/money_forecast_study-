@@ -7,7 +7,7 @@ import java.util.Locale;
 import static liga.Forecast.CONST_DAYS;
 
 public class ForecastDates {
-    //функция для генерации массива из дат на CONST_DAYS дней начиная с завтрашней даты
+    //функция для генерации массива из дат на CONST_DAYS дней начиная с завтрашней  даты
     public static LocalDate[] generateDatesForWeek(LocalDate today) {
         LocalDate[] weekDates = new LocalDate[CONST_DAYS];
         for (int i = 0; i < CONST_DAYS; i++) {

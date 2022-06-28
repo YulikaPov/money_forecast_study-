@@ -9,7 +9,7 @@ import java.text.ParseException;
 import static liga.Forecast.*;
 
 public class csvReader {
-    //функция для считывания из файла последних CONST_DAYS курсов, возвращает массив из курсов в формате double
+    //функция для считывания из файла последних CONST_DAYS курсов, возвращает массив из курсов в формате  double
         public static double[] csvRead(String currency) {
             String src = "";
             if (currency.equals("EUR")) {
